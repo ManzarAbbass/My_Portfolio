@@ -6,7 +6,7 @@ const App = () => {
     <div className='px-6 border-b border-brand-border'>
       <Navbar/>
     </div>
-    <div className='Hero px-5 py-8 '>
+    <div className='Hero px-5 py-8'>
     <Hero/>
     </div>
     </main>
