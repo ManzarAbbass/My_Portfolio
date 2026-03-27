@@ -1,5 +1,6 @@
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
+import ProjectCards from './Components/ProjectCards'
 import Skills from './Components/Skills'
 const App = () => {
 const SklTxt = [
@@ -16,14 +17,19 @@ const SklTxt = [
     <div className='px-6 border-b border-brand-border'>
       <Navbar/>
     </div>
-    <div className='Hero px-5 py-8'>
+    <div className='Hero px-5 py-7'>
     <Hero/>
     </div>
-    <div>
-          <h2 className="text-brand-label text-xl">Skills</h2>
+    <div className='bg-brand-cell rounded-2xl px-5 py-5 border-b border-brand-border-chip flex flex-col gap-4 mx-5'>
+        <h2 className="text-brand-label text-xl">Skills</h2>
+      <div className="grid grid-cols-1  sm:grid-cols-2  md:grid-cols-6 gap-2">
       {SklTxt.map((elm,index)=>(
         <Skills key={index} skill={elm}/>
       ))}
+    </div>
+    </div>
+    <div className='ProjectsCard px-5 py-7'>
+      <ProjectCards/>
     </div>
     </main>
   )
