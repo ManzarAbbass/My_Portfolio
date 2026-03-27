@@ -5,45 +5,41 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
 
+<div className="md:col-span-7 bg-brand-cell rounded-xl 
+                p-4 sm:p-6 md:p-10 
+                border border-brand-border-chip flex flex-col gap-4 
+                items-center md:items-start text-center md:text-left">
 
-      <div className="md:col-span-7 bg-brand-cell rounded-xl 
-                      p-4 sm:p-6 md:p-10 
-                      border border-brand-border-chip flex flex-col gap-4">
-        
+  <div className="workAva w-fit flex items-center bg-brand-border-chip px-2 sm:px-3 md:px-4 py-1 rounded-2xl">
+    <Dot className="text-brand-green" size={28} />
+    <span className="text-brand-muted text-xs sm:text-sm md:text-lg ml-2">
+      Available for work
+    </span>
+  </div>
 
-        <div className="workAva w-fit flex items-center bg-brand-border-chip px-2 sm:px-3 md:px-4 py-1 rounded-2xl">
-          <Dot className="text-brand-green" size={28} />
-          <span className="text-brand-muted text-xs sm:text-sm md:text-lg ml-2">
-            Available for work
-          </span>
-        </div>
+  <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold">
+    Hi, I'm <span className="text-brand-light">Manzar</span>
+  </h2>
+  <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold">
+    <span className="text-brand-accent">Frontend</span> Dev.
+  </h2>
 
+  <p className="text-brand-faint text-sm sm:text-base md:text-lg">
+    I build clean, fast React apps. <br /> Turning ideas into real products
+  </p>
 
-        <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold">
-          Hi, I'm <span className="text-brand-light">Manzar</span>
-        </h2>
-        <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold">
-          <span className="text-brand-accent">Frontend</span> Dev.
-        </h2>
-
-
-        <p className="text-brand-faint text-sm sm:text-base md:text-lg">
-          I build clean, fast React apps. <br /> Turning ideas into real products
-        </p>
-
-
-        <div className="btn flex gap-3 mt-3">
-          <a href="https://github.com/ManzarAbbass?tab=repositories"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="bg-brand-accent text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-2xl text-xs sm:text-sm md:text-lg">
-            View Projects
-          </a>
-          <button className="bg-brand-accent text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-2xl text-xs sm:text-sm md:text-lg">
-            Download CV
-          </button>
-        </div>
-      </div>
+  <div className="btn flex gap-3 mt-3 justify-center md:justify-start">
+    <a href="https://github.com/ManzarAbbass?tab=repositories"
+       target="_blank"
+       rel="noopener noreferrer"
+       className="bg-brand-accent text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-2xl text-xs sm:text-sm md:text-lg">
+      View Projects
+    </a>
+    <button className="bg-brand-accent text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-2xl text-xs sm:text-sm md:text-lg">
+      Download CV
+    </button>
+  </div>
+</div>
 
 
       <div className="md:col-span-5 bg-brand-cell rounded-xl 
