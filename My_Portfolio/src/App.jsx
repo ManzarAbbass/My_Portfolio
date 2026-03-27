@@ -5,6 +5,7 @@ import Skills from './Components/Skills'
 import formcard from "./assets/ProjectImg/note-cont.png"
 import todo from "./assets/ProjectImg/tdo.png"
 import cmd from "./assets/ProjectImg/cmd.png"
+import Contact from './Components/Contact'
 
 const App = () => {
   const SklTxt = [
@@ -73,7 +74,9 @@ const App = () => {
     <ProjectCards key={index} cardinfo={elem} />
   ))}
 </div>
-  <div id="contact"></div>
+  <div id="contact" className='bg-amber-400'>
+    <Contact/>
+  </div>
     </main>
   )
 }
