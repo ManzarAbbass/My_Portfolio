@@ -16,3 +16,6 @@
   --color-brand-faint: #3d3560;
   --color-brand-green: #4ade80;
 }
+html{
+  scroll-behavior: smooth;
+}
