@@ -55,7 +55,7 @@ const App = () => {
     projectinfo: "Bulid a Lazy Loading Image to clear the Concept of Intersection Observer. And Optimize Performance of the website."
   }]
   return (
-    <main className='bg-brand-bg min-h-screen '>
+    <main className='bg-brand-bg  min-h-screen '>
       <div className='px-6 border-b border-brand-border'>
         <Navbar />
       </div>
@@ -78,7 +78,7 @@ const App = () => {
       <div id="contact" className="px-4 py-2 sm:px-5 md:px-5 bg-brand-dark rounded-xl">
         <Contact />
       </div>
-      <div className='footer'>
+      <div className='footer bg-brand-cell  border-t border-brand-border-chip p-5 mt-5 flex justify-center'>
         <FooterSec/>
       </div>
     </main>

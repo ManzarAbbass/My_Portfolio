@@ -19,3 +19,7 @@
 html{
   scroll-behavior: smooth;
 }
+
+html, body {
+  @apply bg-brand-bg; /* Tailwind class apply karne ka tariqa */
+}

@@ -15,15 +15,15 @@ const Contact = () => {
             {/* Links Section */}
             <div className="grid grid-cols-2 gap-8 sm:gap-12 md:flex md:gap-20 md:justify-end">
                 <a href="https://www.linkedin.com/in/manzarjaffari/" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-3">
-                    <img src={linkedin} alt="LogoLinkedin" className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-2xl" />
+                    <img src={linkedin} alt="LogoLinkedin" className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-2xl" />
                     <p className="text-brand-mid">Linkedin</p>
                 </a>
                 <a href="https://github.com/ManzarAbbass" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-3">
-                    <img src={github} alt="Logogithub" className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-2xl" />
+                    <img src={github} alt="Logogithub" className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-2xl" />
                     <p className="text-brand-mid">Github</p>
                 </a>
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=manzarja32@gmail.com" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center gap-3">
-                    <img src={gmail} alt="Logogmail" className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-2xl" />
+                    <img src={gmail} alt="Logogmail" className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-2xl" />
                     <p className="text-brand-mid">Email</p>
                 </a>
             </div>
