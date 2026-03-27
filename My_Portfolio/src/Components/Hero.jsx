@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
 
-      {/* Hero Text */}
+
       <div className="md:col-span-7 bg-brand-cell rounded-xl 
                       p-4 sm:p-6 md:p-10 
                       border border-brand-border-chip flex flex-col gap-4">
         
-        {/* Availability Badge */}
+
         <div className="workAva w-fit flex items-center bg-brand-border-chip px-2 sm:px-3 md:px-4 py-1 rounded-2xl">
           <Dot className="text-brand-green" size={28} />
           <span className="text-brand-muted text-xs sm:text-sm md:text-lg ml-2">
@@ -18,7 +18,7 @@ const Hero = () => {
           </span>
         </div>
 
-        {/* Headings */}
+
         <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold">
           Hi, I'm <span className="text-brand-light">Manzar</span>
         </h2>
@@ -26,12 +26,12 @@ const Hero = () => {
           <span className="text-brand-accent">Frontend</span> Dev.
         </h2>
 
-        {/* Description */}
+
         <p className="text-brand-faint text-sm sm:text-base md:text-lg">
           I build clean, fast React apps. <br /> Turning ideas into real products
         </p>
 
-        {/* Buttons */}
+
         <div className="btn flex gap-3 mt-3">
           <a href="https://github.com/ManzarAbbass?tab=repositories"
              target="_blank"
@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Avatar */}
+
       <div className="md:col-span-5 bg-brand-cell rounded-xl 
                       p-4 sm:p-6 md:p-10 
                       border border-brand-border-chip flex flex-col justify-center items-center gap-3">
@@ -57,7 +57,7 @@ const Hero = () => {
         </p>
       </div>
 
-      {/* About Me */}
+
       <div className="md:col-span-4 bg-brand-cell rounded-xl p-4 sm:p-6 md:p-8 border border-brand-border-chip">
         <h2 className="text-brand-label text-sm sm:text-lg md:text-xl">About Me</h2>
         <p className="text-brand-faint text-xs sm:text-sm md:text-base">
@@ -66,7 +66,7 @@ const Hero = () => {
         </p>
       </div>
 
-{/* Stats Counter */}
+
 <div className="md:col-span-8 bg-brand-cell rounded-xl p-4 sm:p-6 md:p-8 border border-brand-border-chip">
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
 

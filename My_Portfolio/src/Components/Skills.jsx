@@ -7,13 +7,13 @@ const Skills = ({skill}) => {
       px-2 py-1 sm:px-3 sm:py-1.5 md:px-2 md:py-1 
       text-brand-muted gap-2
     ">
-      {/* Icon */}
+
       <Dot 
         className={skill.color} 
-        size={20}   // mobile default
+        size={20} 
       />
 
-      {/* Text */}
+
       <p className="text-xs sm:text-sm md:text-sm font-medium">
         {skill.skill}
       </p>
