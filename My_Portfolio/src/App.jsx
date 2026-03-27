@@ -6,6 +6,7 @@ import formcard from "./assets/ProjectImg/note-cont.png"
 import todo from "./assets/ProjectImg/tdo.png"
 import cmd from "./assets/ProjectImg/cmd.png"
 import Contact from './Components/Contact'
+import FooterSec from './Components/footer'
 
 const App = () => {
   const SklTxt = [
@@ -58,10 +59,10 @@ const App = () => {
       <div className='px-6 border-b border-brand-border'>
         <Navbar />
       </div>
-      <div className='Hero px-5 py-7'>
+      <div id='hero' className='Hero px-5 py-7'>
         <Hero />
       </div>
-      <div className='bg-brand-cell rounded-2xl px-5 py-5 border border-brand-border-chip flex flex-col gap-4 mx-5'>
+      <div id="skills" className='bg-brand-cell rounded-2xl px-5 py-5 border border-brand-border-chip flex flex-col gap-4 mx-5'>
         <h2 className="text-brand-label text-xl">Skills</h2>
         <div className="grid grid-cols-1  sm:grid-cols-2  md:grid-cols-6 gap-2">
           {SklTxt.map((elm, index) => (
@@ -69,15 +70,19 @@ const App = () => {
           ))}
         </div>
       </div>
-  <div className="ProjectsCard px-5 py-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
-  {projectCard.map((elem, index) => (
-    <ProjectCards key={index} cardinfo={elem} />
-  ))}
-</div>
-  <div id="contact" className='bg-amber-400'>
-    <Contact/>
-  </div>
+      <div id='projects' className="ProjectsCard px-5 py-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+        {projectCard.map((elem, index) => (
+          <ProjectCards key={index} cardinfo={elem} />
+        ))}
+      </div>
+      <div id="contact" className="px-4 py-2 sm:px-5 md:px-5 bg-brand-dark rounded-xl">
+        <Contact />
+      </div>
+      <div className='footer'>
+        <FooterSec/>
+      </div>
     </main>
+    
   )
 }
 

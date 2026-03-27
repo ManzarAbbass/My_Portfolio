@@ -21,10 +21,10 @@ const ProjectCards = ({cardinfo}) => {
 
 
       <div className="flex gap-2 flex-wrap">
-        <span className="bg-brand-chip border border-brand-border-chip rounded-xl px-3 py-1 text-xs sm:text-sm md:text-sm text-brand-faint">
+        <span className="bg-brand-chip border border-brand-border-chip rounded-xl px-3 py-1 text-xs sm:text-sm md:text-sm text-brand-mid">
           {cardinfo.projectStack1}
         </span>
-        <span className="bg-brand-chip rounded-xl px-3 py-1 text-xs sm:text-sm md:text-sm text-brand-faint">
+        <span className="bg-brand-chip rounded-xl px-3 py-1 text-xs sm:text-sm md:text-sm text-brand-mid">
           {cardinfo.projectStack2}
         </span>
       </div>
