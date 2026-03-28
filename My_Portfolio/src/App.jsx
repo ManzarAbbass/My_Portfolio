@@ -2,9 +2,9 @@ import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import ProjectCards from './Components/ProjectCards'
 import Skills from './Components/Skills'
-import formcard from "./assets/ProjectImg/note-cont.png"
-import todo from "./assets/ProjectImg/tdo.png"
-import cmd from "./assets/ProjectImg/cmd.png"
+import formcard from "./assets/ProjectImg/note-cont.PNG"
+import todo from "./assets/ProjectImg/tdo.PNG"
+import cmd from "./assets/ProjectImg/cmd.PNG"
 import Contact from './Components/Contact'
 import FooterSec from './Components/footer'
 
