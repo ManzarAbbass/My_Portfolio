@@ -12,10 +12,10 @@ const Navbar = () => {
         <img src={logo} alt="Logo" className="h-7 sm:h-8 md:h-10" />
       </div>
       <div className={`Menu   bg-brand-cell border border-brand-border-chip py-4  ${isOpen? "block":"hidden"} flex flex-col md:flex md:flex-row  items-center gap-4 md:gap-8  absolute top-full left-0 w-full md:relative md:top-0 md:w-auto md:border-none md:bg-transparent`}>
-        <span className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">About</span>
-        <span className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Skills</span>
-        <span className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Projects</span>
-        <span className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Contact</span>
+        <a href="#hero" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">About</a>
+        <a href="#skills" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Skills</a>
+        <a href="#projects" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Projects</a>
+        <a href="#contact" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Contact</a>
       </div>
       <div className="text-white flex items-center gap-2">
         <div onClick={() => {
