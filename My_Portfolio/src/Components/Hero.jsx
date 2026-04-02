@@ -1,5 +1,4 @@
 import profile from "../assets/profile.png"
-import CV from ".../public/CV.pdf"
 import { Dot } from "lucide-react"
 
 const Hero = () => {
@@ -36,7 +35,8 @@ const Hero = () => {
        className="bg-brand-accent text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-2xl text-xs sm:text-sm md:text-lg">
       View Projects
     </a>
-    <a download={CV}
+    <a href="CV.pdf" 
+      download={"Manzar_Abbass_CV.pdf"}
        className="bg-brand-accent text-white px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 rounded-2xl text-xs sm:text-sm md:text-lg">
       Download CV
     </a>
