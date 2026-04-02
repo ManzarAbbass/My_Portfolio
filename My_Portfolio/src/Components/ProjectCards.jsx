@@ -1,12 +1,12 @@
-const ProjectCards = ({cardinfo}) => {
+const ProjectCards = ({ cardinfo }) => {
   return (
     <div className="p-4 sm:p-5 md:p-4 bg-brand-cell border border-brand-border-chip rounded-xl flex flex-col items-center justify-center gap-3 hover:shadow-lg transition-transform hover:scale-105">
-      
 
-      <img 
-        src={cardinfo.projectImg} 
-        alt="Projectimg" 
-        className="h-32 sm:h-40 md:h-36 object-cover rounded-lg" 
+
+      <img
+        src={cardinfo.projectImg}
+        alt="Projectimg"
+        className="h-32 sm:h-40 md:h-36 object-cover rounded-lg"
       />
 
 
@@ -32,20 +32,20 @@ const ProjectCards = ({cardinfo}) => {
 
       <div className="flex gap-2 mt-2">
         {cardinfo.liveDemo && (
-          <a 
-            href={cardinfo.liveDemo} 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href={cardinfo.liveDemo}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-brand-accent text-white px-2 sm:px-3 py-1 sm:py-2 rounded-xl text-xs sm:text-sm md:text-sm hover:bg-brand-accent/80"
           >
             Live Demo
           </a>
         )}
         {cardinfo.githubLink && (
-          <a 
-            href={cardinfo.githubLink} 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href={cardinfo.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-brand-accent text-white px-2 sm:px-3 py-1 sm:py-2 rounded-xl text-xs sm:text-sm md:text-sm hover:bg-brand-accent/80"
           >
             GitHub
