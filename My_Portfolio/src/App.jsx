@@ -46,7 +46,7 @@ const App = () => {
     projectinfo: "Command palette with keyboard shortcuts, real-time search filtering, arrow navigation, and responsive modern UI."
   },
   {
-    projectImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZEY6BK2GdD476ALZgZ2bY_TqwqBoRkYX7jQ&s",
+    projectImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA5az-opSgOj7nQFvNGlth_G7TrPZX9YGNMw&s",
     projectName: "Ecommerce Product Cards",
     liveDemo: "https://ecommerce-carts-cards.netlify.app/",
     githubLink: "https://github.com/ManzarAbbass/WebApp-Theme-Changer",
