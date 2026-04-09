@@ -63,17 +63,21 @@ const App = () => {
         <Hero />
       </div>
       <div id="skills" className='bg-brand-cell rounded-2xl px-5 py-5 border border-brand-border-chip flex flex-col gap-4 mx-5'>
-        <h2 className="text-brand-label text-xl">Skills</h2>
+        <h2 className="text-brand-label text-sm sm:text-lg md:text-xl">Skills</h2>
         <div className="grid grid-cols-1  sm:grid-cols-2  md:grid-cols-6 gap-2">
           {SklTxt.map((elm, index) => (
             <Skills key={index} skill={elm} />
           ))}
         </div>
       </div>
-      <div id='projects' className="ProjectsCard px-5 py-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+      <div className='projects px-5 py-7'>
+        <h2 className='text-brand-label text-sm sm:text-lg md:text-xl'>Projects</h2>
+        <p className='text-2xl font-bold text-white mb-5'>What I've Built</p>
+      <div id='projects' className="ProjectsCard  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
         {projectCard.map((elem, index) => (
           <ProjectCards key={index} cardinfo={elem} />
         ))}
+      </div>
       </div>
       <div id="contact" className="px-4 py-2 sm:px-5 md:px-5 bg-brand-dark rounded-xl">
         <Contact />
