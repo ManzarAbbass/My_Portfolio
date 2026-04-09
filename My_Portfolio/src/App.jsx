@@ -20,9 +20,9 @@ const App = () => {
   ]
   const projectCard = [{
     projectImg: formcard,
-    projectName: "CallNote",
-    liveDemo: "https://dribbble.com/tags/form-ui",
-    githubLink: "https://github.com/ManzarAbbass/NextWord_Predictor-LSTM-",
+    projectName: "PingStackCallReminder",
+    liveDemo: "https://pingstack.netlify.app/",
+    githubLink: "https://github.com/ManzarAbbass/Ping_Stack",
     projectStack1: "Css",
     projectStack2: "VanillaJS",
     projectinfo: "Smart call reminder application with priority-based note creation, stacked card interface, and dynamic reordering functionality."
@@ -72,7 +72,7 @@ const App = () => {
       </div>
       <div className='projects px-5 py-7'>
         <h2 className='text-brand-label text-sm sm:text-lg md:text-xl'>Projects</h2>
-        <p className='text-2xl font-bold text-white mb-5'>What I've Built</p>
+        <p className='text-sm sm:text-lg md:text-xl font-bold text-white mb-5'>What I've Built</p>
       <div id='projects' className="ProjectsCard  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
         {projectCard.map((elem, index) => (
           <ProjectCards key={index} cardinfo={elem} />

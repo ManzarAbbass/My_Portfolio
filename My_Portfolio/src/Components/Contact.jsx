@@ -8,6 +8,7 @@ const Contact = () => {
             
             {/* Heading + Para */}
             <div className="text-center md:text-left mb-6 md:mb-0">
+                <h2 className="text-brand-label text-sm sm:text-lg md:text-xl">Contact</h2>
                 <h2 className="text-white text-xl md:text-2xl font-bold">Let's work together</h2>
                 <p className="text-brand-muted">Open to internships and junior frontend role</p>
             </div>
