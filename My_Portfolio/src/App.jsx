@@ -47,8 +47,8 @@ const App = () => {
   },
   {
     projectImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZEY6BK2GdD476ALZgZ2bY_TqwqBoRkYX7jQ&s",
-    projectName: "Lazy Loading",
-    liveDemo: "https://www.jsdelivr.com/package/npm/theme-changer-light-dark",
+    projectName: "Ecommerce Product Cards",
+    liveDemo: "https://ecommerce-carts-cards.netlify.app/",
     githubLink: "https://github.com/ManzarAbbass/WebApp-Theme-Changer",
     projectStack1: "Css",
     projectStack2: "VanillaJs",
