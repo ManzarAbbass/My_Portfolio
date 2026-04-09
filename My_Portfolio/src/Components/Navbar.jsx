@@ -11,7 +11,7 @@ const Navbar = () => {
       <div >
         <img src={logo} alt="Logo" className="h-7 sm:h-8 md:h-10" />
       </div>
-      <div className={`Menu   bg-brand-cell border border-brand-border-chip p-4  ${isOpen? "block":"hidden"} flex flex-col h-screen justify-center md:flex md:flex-row  items-center gap-4 md:gap-8  absolute top-full left-0 w-full md:relative md:top-0 md:w-auto md:border-none md:bg-transparent`}>
+      <div className={`Menu   bg-brand-cell border border-brand-border-chip p-4  ${isOpen? "block":"hidden"} flex flex-col h-screen justify-center md:flex md:flex-row md:h-2 items-center gap-4 md:gap-8  absolute top-full left-0 w-full md:relative md:top-0 md:w-auto md:border-none md:bg-transparent`}>
         <a href="#hero" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">About</a>
         <a href="#skills" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Skills</a>
         <a href="#projects" className="text-brand-muted hover:text-white cursor-pointer transition-colors text-sm font-bold">Projects</a>

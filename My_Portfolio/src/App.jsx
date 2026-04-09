@@ -5,6 +5,7 @@ import Skills from './Components/Skills'
 import formcard from "./assets/ProjectImg/note-cont.PNG"
 import todo from "./assets/ProjectImg/tdo.PNG"
 import cmd from "./assets/ProjectImg/cmd.PNG"
+import ecomm from "./assets/ProjectImg/ecomm.PNG"
 import Contact from './Components/Contact'
 import FooterSec from './Components/footer'
 
@@ -46,7 +47,7 @@ const App = () => {
     projectinfo: "Command palette with keyboard shortcuts, real-time search filtering, arrow navigation, and responsive modern UI."
   },
   {
-    projectImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA5az-opSgOj7nQFvNGlth_G7TrPZX9YGNMw&s",
+    projectImg: ecomm,
     projectName: "Ecommerce Product Cards",
     liveDemo: "https://ecommerce-carts-cards.netlify.app/",
     githubLink: "https://github.com/ManzarAbbass/WebApp-Theme-Changer",
