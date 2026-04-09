@@ -20,7 +20,7 @@ const App = () => {
   ]
   const projectCard = [{
     projectImg: formcard,
-    projectName: "PingStackCallReminder",
+    projectName: "PingStack CallReminder",
     liveDemo: "https://pingstack.netlify.app/",
     githubLink: "https://github.com/ManzarAbbass/Ping_Stack",
     projectStack1: "Css",
@@ -52,7 +52,7 @@ const App = () => {
     githubLink: "https://github.com/ManzarAbbass/WebApp-Theme-Changer",
     projectStack1: "Css",
     projectStack2: "VanillaJs",
-    projectinfo: "Bulid a Lazy Loading Image to clear the Concept of Intersection Observer. And Optimize Performance of the website."
+    projectinfo: "I built a fully functional E‑commerce Product Cart system from scratch. I applied the Module Pattern (IIFE) to create a dedicated logic “Engine,” which kept the cart state private and encapsulated all core functionalities. "
   }]
   return (
     <main className='bg-brand-bg  min-h-screen '>
